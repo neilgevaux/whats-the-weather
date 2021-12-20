@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/weather-icons.min.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <input type="text" autocomplete="off" class="search-box" placeholder="Enter location">
+        </header>
+        <main>
+            <section class="location">
+                <div class="city">What's the weather?</div>
+                <div class="date"></div>
+            </section>
+            <div class="current">
+                <div class="temp"><span></span></div>
+                <div class="weather"></div>
+                <div class="hi-low"></div>
+                <div class="wind-speed"></div>
+                <div class="icon">
+                    <img class="weatherIcon" src="" alt="">
+                </div>
+                <!-- <div class="icon"><i class="wi wi-day-sunny"></i></div> -->
+            </div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
