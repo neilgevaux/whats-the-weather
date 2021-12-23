@@ -1,6 +1,6 @@
 //Define API key
 const api = {
-    key: "da09a77459d30fb4f3110ad9d7dc4ea0",
+    key: "", // add API key
     baseurl: "https://api.openweathermap.org/data/2.5/"
 }
 // Add event listener to search box to send request on pressing Enter
